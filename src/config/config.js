@@ -2,9 +2,9 @@ require('dotenv').config();
 
 
 module.exports = {
-    token: '',
-    clientId: '1273230302822797312',
-    guildId: '1106591466651922502',
+    token: process.env.TOKEN,
+    clientId: '1251004320787337296',
+    guildId: '857011584711131167',
     youtubeApiKey: process.env.YOUTUBE_API_KEY,
     mongoUri: process.env.MONGO_URI,
     spotify: {
